@@ -141,11 +141,8 @@ img {
 
 /* Main studio */
 /* Hero */
-.section.hero {
-  padding-top: 200px;
-  padding-bottom: 200px;
-}
 .hero {
+  padding: 200px 0;
   text-align: center;
   background-color: var(--bgr-secondary-color);
 }
@@ -162,6 +159,7 @@ img {
   color: var(--white-color);
 }
 .hero-btn {
+  padding: 10px 32px;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -189,7 +187,7 @@ img {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 .features-desc {
   font-size: 14px;
@@ -197,6 +195,9 @@ img {
 }
 
 /* What we do */
+.section.wedo {
+  padding-top: 0;
+}
 .wedo-title {
   font-size: 36px;
   line-height: 1.16;
@@ -258,6 +259,7 @@ img {
   margin-right: 8px;
 }
 .filter-btn {
+  padding: 6px 22px;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
