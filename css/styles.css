@@ -150,7 +150,9 @@ img {
   background-color: var(--bgr-secondary-color);
 }
 .hero-title {
+  margin: auto;
   margin-bottom: 30px;
+  max-width: 696px;
 
   font-weight: 900;
   font-size: 44px;
