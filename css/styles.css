@@ -137,6 +137,10 @@ img {
 
 /* Main studio */
 /* Hero */
+.section.hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
 .hero {
   text-align: center;
   background-color: var(--bgr-secondary-color);
